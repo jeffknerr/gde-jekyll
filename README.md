@@ -71,3 +71,10 @@ Configuration file: /home/knerr/repos/gde-jekyll/_config.yml
    (added test header & footer colors)
    vim README.md
 ```
+
+- made new empty git repo
+- cloned it to my linux computer
+- moved all of my gde-jekyll stuff into this new cloned empty repo
+- git added everything (including the .gitignore file)
+- pushed it back to main branch on github
+
