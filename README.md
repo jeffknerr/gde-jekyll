@@ -29,9 +29,9 @@ Configuration file: /home/knerr/repos/gde-jekyll/_config.yml
 ## things to do
 
  - set up skeleton site
-     > nav bar: home links webmail mytrilog
-     > image: dogs/etc
-     > footer: gbaddr, sk blog, eff, storygraph, etc
+ * nav bar: home links webmail mytrilog
+ * image: dogs/etc
+ * footer: gbaddr, sk blog, eff, storygraph, etc
  - play with css/styling/themes, get it to look reasonable
  - set up autodeploy to gde
 
