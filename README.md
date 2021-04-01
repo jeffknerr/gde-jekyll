@@ -78,3 +78,10 @@ Configuration file: /home/knerr/repos/gde-jekyll/_config.yml
 - git added everything (including the .gitignore file)
 - pushed it back to main branch on github
 
+----
+
+- created new ssh key on server: `ssh-keygen -t ed25519 -f name-of-key-file` (leave passphrase empty)
+- add name-of-key-file.pub part as *Deploy key* on github (Settings->DeployKey->AddDeployKey)
+- test git pull on server using new deploy key: 
+  `$ GIT_SSH_COMMAND='ssh -i /home/knerr/.ssh/git-gde-jekyll' git pull`
+
