@@ -84,4 +84,10 @@ Configuration file: /home/knerr/repos/gde-jekyll/_config.yml
 - add name-of-key-file.pub part as *Deploy key* on github (Settings->DeployKey->AddDeployKey)
 - test git pull on server using new deploy key: 
   `$ GIT_SSH_COMMAND='ssh -i /home/knerr/.ssh/git-gde-jekyll' git pull`
-
+- add hook to webhook hooks.json file
+- add deploy.sh script that hooks.json calls
+- add webhook to github (Settings->Webhooks->AddWebhook): payload url, application/json, secret
+- make a dummy commit, see if webhook fires
+- set up deploy.sh script to pull the repo, the do the jekyll stuff to deploy
+  the website (bundle install; bundle exec jekyll build; `rsync _site` to /var/www)
+- test it all and make sure it works
